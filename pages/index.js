@@ -92,10 +92,11 @@ export default function HomePage() {
 
     return (
       <div>
-        <p>Your Account: {account}</p>
-        <p>Your Balance: {balance}</p>
-        <button onClick={deposit}>Deposit 1 ETH</button>
-        <button onClick={withdraw}>Withdraw 1 ETH</button>
+        <p style = {{fontFamily: "verdana"}}>Account Holder: {'Pawash Kumar'}</p>
+        <p style = {{fontFamily:"verdana"}}>Your Account: {account}</p>
+        <p style = {{fontFamily:"verdana"}}>Your Balance: {balance}</p>
+        <button style = {{background: 'yellow'}} onClick={deposit}><b>Deposit 1 ETH</b></button>
+        <button style = {{background: 'red'}} onClick={withdraw}><b>Withdraw 1 ETH</b></button>
       </div>
     )
   }
@@ -104,7 +105,7 @@ export default function HomePage() {
 
   return (
     <main className="container">
-      <header><h1>Welcome to the Metacrafters ATM!</h1></header>
+      <header><h1 style = {{color: 'blue'}}>Welcome to the Metacrafters ATM!</h1></header>
       {initUser()}
       <style jsx>{`
         .container {
