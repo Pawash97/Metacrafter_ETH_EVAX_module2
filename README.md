@@ -8,8 +8,12 @@ The following features ar provided by the Project :
 - Connect to MetaMask wallet
 - Display user's account address
 - View user's account balance
+- View Wallet Balance
+- Check Pin
+- Transfer Ownership
 - Deposit ETH into the ATM
 - Withdraw ETH from the ATM
+
   
 Please note that the component assumes you have set up and configured MetaMask in your browser.
 
@@ -31,6 +35,10 @@ On the Frontend window , you will be able to interact with the components and de
 -- Helps to deposit ETH in the current metamask wallet
 ### `Withdraw` 
 -- Helps to withdraw ETH from the metamask wallet
+### `Verify Pin`
+-- Checks your Pin and verifies it.
+### `New Owner`
+-- You can change the owner by specifying another address.
 
 ## Authors
 
