@@ -2,7 +2,7 @@
 This is a solidity contract which is integrated with the react to display data on the frontend. User can connect their Metamask Wallet, view their account balance, deposit or withdraw Ether and check the user's name.
 ## Features
 
-The following features ar provided by the Project :
+The following features are provided by the Project :
 
 - Check the user's name
 - Connect to MetaMask wallet
